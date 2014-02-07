@@ -7,7 +7,7 @@ function FindProxyForURL(url, host) {
     {
         alert("禁止访问");
         host = "http://www.baidu.com";
-        return;
+        return host;
     }
     
 }
