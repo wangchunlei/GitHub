@@ -6,8 +6,8 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, '.4399.com'))
     {
         alert("禁止访问");
-
-        return "123";
+        host = "http://www.baidu.com";
+        return host;
     }
     
 }
